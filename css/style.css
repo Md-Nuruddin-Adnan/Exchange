@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;0,700;1,500&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+}
+ 
+::after, ::before {
+  box-sizing: border-box;
+}
+ 
+h1, h2, h3, h4, h5, h6, ol, ul, p, address, strong, i {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+   
+ul, li {
+  list-style: none;
+}
+
+a, a:hover {
+  text-decoration: none;
+}
+
+body {
+  background: linear-gradient(to bottom right, #290075 0%, #086ddf 100%) no-repeat top left/cover;
+  min-height: 100vh;
+  font-family: 'Poppins', sans-serif;
+}
+/* basic css end */
+
+/* common css start */
+.card {
+  background: #122272;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.card-header {
+  padding: 20px;
+  border-bottom: 1px solid rgb(27 52 105);
+  background: transparent;
+}
+
+.card-footer {
+  padding: 0 20px;
+  margin-top: -15px;
+  border-top: 1px solid transparent;
+  background: transparent;
+}
+
+.card-body {
+  padding: 20px;
+}
+/*// end of common css */
+
+/* main css start */
+
+
+/* === exchange section start === */
+.exchange .card-header h2 {
+  font-size: 1.3em;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 5px;
+}
+
+.exchange .card-header p {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.exchange .card-header .btn {
+  color: #1BA3FA;
+  font-size: 20px;
+}
+
+.exchange .inner-card {
+  background: #2E437A;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.exchange .inner-card h5 {
+  /* color: #A2ADCD; */
+  color: #e8e3f9;
+  font-size: 1rem;
+}
+
+.exchange .inner-card .bottom {
+  margin-top: 10px;
+}
+
+.exchange .inner-card .bottom span {
+  color: #1BA3FA;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.exchange .inner-card .bottom h4 {
+  color: #e8e3f9;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.exchange .inner-card .dropdown-toggle {
+  color: #e8e3f9;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.dropdown-menu-dark {
+  background-color: #122272;
+}
+
+.exchange .divider {
+  font-size: 20px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  color: #1BA3FA;
+  background: #2E437A;
+  display: block;
+  line-height: 40px;
+  margin: 15px auto;
+}
+
+.exchange .pricing {
+  padding: 20px 20px 0 20px;
+}
+
+.exchange .pricing h5 {
+  color: #e8e3f9;
+  font-size: 1rem;
+}
+
+.exchange .pricing .btn i {
+  font-size: 18px;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  color: #1BA3FA;
+  background: #0b1650;
+  display: block;
+  line-height: 35px;
+}
+
+.exchange .footer-btn .btn {
+  font-family: "Poppins", sans-serif;
+  font-size: 15px 12px;
+  font-weight: 600;
+  padding: 12px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+  width: 100%;
+  border: none;
+  box-sizing: border-box;
+  transition: all 1s linear;
+  margin: 10px;
+  -ms-border-radius: 10px;
+  border-radius: 10px;
+  background-image: linear-gradient(to left, #41faa4 0%, #16a3fe 100%);
+}
+
+.exchange .footer-btn .btn:hover {
+  background-image: linear-gradient(to left, #16a3fe 0%, #41faa4 100%);  
+}
+/* ===//end of exchange section === */
+
+/* === condition section start === */
+.condition .card {
+  margin: 0 20px;
+}
+
+.condition p {
+  color: #e8e3f9;
+  padding: 3px 0;
+}
+
+.condition p span.colored {
+  color: #1BA3FA;
+}
+
+.condition i {
+  background: #0b1650;
+  color: #1BA3FA;
+  padding: 5px;
+  border-radius: 50%;
+}
+/* ===//end of condition section === */
